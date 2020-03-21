@@ -1,0 +1,151 @@
+.page-content{
+    box-sizing: border-box;
+}
+body{
+    font-family: Open Sans,sans-serif;
+}
+div{
+    display: block;
+}
+
+
+#about-me{
+    background-image: url('/statics/css/images/mainimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
+
+}
+.myimage{
+    /*position: fixed;*/
+    box-sizing: border-box;
+    margin-top: 60px;
+    max-width: 100%;
+    max-height: 130%;
+    position: absolute;
+
+}
+.icon-s1{
+    text-align: center;
+    line-height: 1em;
+    color: #fdd55c;
+    box-sizing:border-box;
+    width: 20%;
+    height: 100%;
+}
+
+#profile {
+    border: 10px solid white;
+    box-shadow: 0 12px 90px -10px rgba(139, 139, 139, .5) !important;
+
+
+}
+#name {
+    font-size: 50px;
+    color: #ffd93e;
+    letter-spacing: -2px;
+    font-weight: 600;
+    margin-top: 60px!important;
+    margin-bottom: 10px!important;
+    font-family: Open Sans, sans-serif;
+}
+
+#curjob{
+    font-family: Open Sans, sans-serif;
+    font-size: 21px;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+}
+
+#curjobdiv{
+    margin-bottom: 30px;
+}
+
+#contact-info{
+    text-align: center!important;
+    border-right-width: 1px!important;
+    border-right-color: #e2e2e2!important;
+    border-right-style: solid!important;
+    margin-left:25%;
+}
+
+.linksinn{
+    padding: 26px 0 21px 11px!important;
+    text-align: center!important;
+}
+.linksinn1{
+    padding: 26px 45px 10px 4px!important;
+    text-align: center!important;
+}
+
+
+#about-me-links{
+    position: relative;
+    left: -71.6667px;
+    box-sizing: border-box;
+    padding-left: 71.6667px;
+    padding-right: 71.3333px;
+    border-bottom: 1px solid #e2e2e2;
+    z-index: 0
+}
+.prelink{
+        letter-spacing: -.5px;
+        text-decoration: none;
+    border: none;
+    display: block;
+        outline: none!important;
+
+
+
+}
+.contacthelp{
+
+        padding: 26px 0 21px 11px!important;
+
+}
+
+#send-msg{
+    border-right-width: 1px!important;
+    border-right-color: #e2e2e2!important;
+    border-right-style: solid!important;
+    flex: 0 0 25%;
+    max-width: 25%
+}
+
+#download{
+
+    flex: 0 0 25%;
+    max-width: 25%
+}
+
+span{
+    font-size: 17px;
+    color: #2e353e;
+    font-family: Open Sans,sans-serif;
+    text-decoration: none;
+}
+.iconify { width: 24px; height: 24px; }
+
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active{
+    text-decoration: none!important;;
+}
+
+.float-navbar{
+    position: absolute;
+    top: 90px;
+}
+.float-navbar-h1{
+    position: absolute;
+    display: block!important;
+    margin: 0;
+    height: auto!important;
+    box-shadow: 0 0 80px 0 rgba(62,62,62,.3);
+}
